@@ -80,7 +80,7 @@ app.use((req, res, next) => {
   
   
   
-  function justifyText(text, wordCount) {
+function justifyText(text, wordCount) {
     const words = text.split(/\s+/); // Sépare le texte en mots
   
     let result = '';
@@ -113,7 +113,7 @@ app.use((req, res, next) => {
     return result;
   }
   
-  function justifyLine(line){
+function justifyLine(line){
     if (line.length < 80) {
       const words = line.split(' ');
       if (words.length > 1) {
@@ -187,3 +187,6 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+
+export default app; 

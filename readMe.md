@@ -10,6 +10,11 @@ npm install
 ```
 npm start
 ```
-  Navigate to `http://localhost:3000`
+  Navigate to http://localhost:3000
 
 - API Document endpoints : http://localhost:3000/swagger
+
+- To Test
+```
+npm test
+```

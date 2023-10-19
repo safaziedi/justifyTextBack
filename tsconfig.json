@@ -11,6 +11,6 @@
     "resolveJsonModule": true,
     "lib": ["ES6"]
   },
-  "include": ["src/**/*.ts", "app.ts","./*.ts"],
+  "include": ["src/**/*.ts", "app.ts","./*.ts", "app.test.js"],
   "exclude": ["node_modules"]
 }
