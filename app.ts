@@ -182,6 +182,10 @@ function justifyLine(line){
   });
   
 
+app.get('/hello', (req, res) => {
+  res.send('Hello Tictactrip Team');
+});
+
 // Port to listen on
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
