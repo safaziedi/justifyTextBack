@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
+    "build": "tsc",
     "start": "nodemon app.ts",
     "test": "mocha --require ts-node/register ./*.test.ts"
   },
